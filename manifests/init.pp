@@ -4,7 +4,7 @@
 #
 #   include tunnelblick
 class tunnelblick {
-  $version = '3.2.8'
+  $version = '3.2.9'
 
   package { 'Tunnelblick':
     provider => 'appdmg',
