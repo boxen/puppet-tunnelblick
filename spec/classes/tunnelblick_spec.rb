@@ -8,3 +8,12 @@ describe 'tunnelblick' do
     })
   end
 end
+
+describe 'tunnelblick::beta' do
+  it do
+    should contain_package('Tunnelblick').with({
+      :provider => 'appdmg',
+      :source   => 'http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_3.3beta54.dmg',
+    })
+  end
+end

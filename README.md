@@ -6,6 +6,7 @@
 
 ```puppet
 include tunnelblick
+include tunnelblick::beta
 ```
 
 ## Required Puppet Modules
