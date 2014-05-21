@@ -1,6 +1,6 @@
 # Tunnelblick Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/thrills/puppet-tunnelblick.png)](https://travis-ci.org/thrills/puppet-tunnelblick)
+[![Build Status](https://travis-ci.org/thrills/puppet-tunnelblick.svg?branch=jw-minorUp)](https://travis-ci.org/thrills/puppet-tunnelblick)
 
 ## Usage
 
