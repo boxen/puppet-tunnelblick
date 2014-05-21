@@ -4,7 +4,7 @@
 #
 #   include tunnelblick::beta
 class tunnelblick::beta {
-  $version = '3.4beta22'
+  $version = '3.4beta26'
 
   package { 'Tunnelblick':
     provider => 'appdmg',
