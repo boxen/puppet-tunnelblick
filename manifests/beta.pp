@@ -3,9 +3,9 @@
 # Examples
 #
 #   include tunnelblick::beta
-class tunnelblick::beta($version = '3.4beta36_r2945') {
+class tunnelblick::beta($version = '3.6beta08_build_4371') {
   package { 'Tunnelblick':
     provider => 'appdmg',
-    source   => "http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
+    source   => "http://nchc.dl.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
   }
 }

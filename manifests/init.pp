@@ -3,9 +3,9 @@
 # Examples
 #
 #   include tunnelblick
-class tunnelblick($version = '3.3.4') {
+class tunnelblick($version = '3.5.3_build_4270.4371') {
   package { 'Tunnelblick':
     provider => 'appdmg',
-    source   => "http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
+    source   => "http://nchc.dl.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
   }
 }
